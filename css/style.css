@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --b-rad: 15px;
+  --p-color: hsl(220, 15%, 55%);
+  --bg-color: hsl(212, 45%, 89%);
+}
+
+body {
+  background-color: var(--bg-color) !important;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  width: 23rem;
+  border-radius: var(--b-rad) !important;
+}
+
+.card img {
+  border-radius: var(--b-rad);
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 17px 0;
+}
+
+.card p {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--p-color);
+}
